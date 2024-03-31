@@ -12,6 +12,10 @@ body{
   height: 20vh;
   border-radius: 10px;
   margin-top: 20px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  outline: none;
 }
 .note-pad{
   width: 100%;
@@ -52,6 +56,10 @@ body{
 @media (max-width:480px){
   .note-pad{
     width: 100vw;
+    margin-left: 0;
+  margin-right: 0;
+  margin-top: 1px;
+  margin-bottom: 0px;
   }
   h1{
     display: none;
