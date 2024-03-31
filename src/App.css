@@ -57,9 +57,6 @@ body{
   .note-pad{
     width: 100vw;
     margin-left: 0;
-  margin-right: 0;
-  margin-top: 1px;
-  margin-bottom: 0px;
   }
   h1{
     display: none;
