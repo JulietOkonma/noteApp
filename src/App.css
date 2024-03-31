@@ -1,0 +1,68 @@
+*{
+padding: 0;
+font-family: poppins;
+margin: 0;
+
+}
+body{
+  background-color: white;
+}
+.note-input{
+  width: 100%;
+  height: 20vh;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.note-pad{
+  width: 100%;
+  height:800px;
+  background-image: linear-gradient(to right,#ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78% );
+  margin: 20px;
+  position: relative;
+  left: 60%;
+  padding: 20px;
+}
+.h1{
+  color:black;
+  position: relative;
+  left: 70%;
+}
+.btn{
+  display: flex;
+  justify-content: space-around;
+  border-radius: 40%;
+}
+
+.btn-1{
+  background-color: black;
+  color: white;
+  
+}
+
+.h2{
+  color: black;
+}
+.btn-2{
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+}
+
+
+@media (max-width:480px){
+  .note-pad{
+    width: 84vw;
+  }
+  h1{
+    display: none;
+  }
+
+.btn-1{
+  margin-left:7px;
+}
+}
+@media (max-width:767px) and (min-width:481px){
+
+
+
+}
